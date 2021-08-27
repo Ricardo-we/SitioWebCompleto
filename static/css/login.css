@@ -6,24 +6,28 @@
 .login-background {
     background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
     padding-top: 6.7rem;
+    height: 100%;
 }
 
 .banner-login{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100%;
 }
 
 .banner-login img{
-    width: 29.5rem;
+    width: 55rem;
     align-self: flex-end;
 }
 .banner-login h2 {
     color: #fff;
     font-size: var(--size-h1);
     font-weight: 600;
+    margin-bottom: 5px;
 }
 .banner-login span {
+    margin-top: 5px;
     font-size: var(--size-h3);
     font-weight: 300;
     color: #fff;
@@ -32,23 +36,28 @@
 
 .formulario-login {
     background-color: #fff;
+    height: 100%;
     border-radius: 4rem 4rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .formulario {
     width: 100%;
     margin: auto;
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom:40%;
 }
 
 .formulario__label {
     font-size: 1.2rem;
     color: var(--gris3);
     margin-bottom: 3.5rem;
-
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -66,7 +75,7 @@
 
 .formulario button {
     margin: 10px 0px;
-    height: 4.4rem;
+    height: 7.4rem;
     background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
     border-radius: 1rem;
     color: #fff;
@@ -82,6 +91,7 @@
     align-self: center;
     position: relative;
 }
+
 .formulario button img {
     width: 2.5rem;
     position: absolute;
@@ -92,18 +102,26 @@
     align-self: flex-start;
     margin-left: 5%;
     margin-top: 10px;
+    font-size: var(--size-parrafo);
 }
 
 .formulario__mensaje {
     color: var(--gris1);
     font-size: var(--size-parrafo);
     margin-top: 2rem;
+    margin-right: 10px;
+    text-decoration: none;
     align-self: flex-end;
+}
+
+.container {
+    margin-left: 40px;
+    margin-bottom: 20px;
 }
 
 :root {
     --gris3: #313131;
-    --size-h1:34px;
-    --size-h3: 24px;
-    --size-parrafo: 16px;
+    --size-h1: 5rem;
+    --size-h3: 4rem;
+    --size-parrafo: 3rem;
 }
