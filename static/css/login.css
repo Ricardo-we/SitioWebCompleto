@@ -2,11 +2,20 @@
 
 *{
     font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
 }
+
+body {
+    background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
+    width:98%;
+}
+
 .login-background {
+    width: 100%;
     background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
     padding-top: 6.7rem;
     height: 100%;
+    margin: 0;
 }
 
 .banner-login{
@@ -17,17 +26,18 @@
 }
 
 .banner-login img{
-    width: 55rem;
+    width: 25rem;
+    height: 12rem;
     align-self: flex-end;
+    margin-right: 120px;
 }
 .banner-login h2 {
     color: #fff;
     font-size: var(--size-h1);
-    font-weight: 600;
-    margin-bottom: 5px;
+    font-weight: bolder;
+    margin: 0px;
 }
 .banner-login span {
-    margin-top: 5px;
     font-size: var(--size-h3);
     font-weight: 300;
     color: #fff;
@@ -75,11 +85,11 @@
 
 .formulario button {
     margin: 10px 0px;
-    height: 7.4rem;
+    height: 6.4rem;
     background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
     border-radius: 1rem;
-    color: #fff;
-    font-size: var(--size-parrafo);
+    color: white;
+    font-size: var(--size-h3);
     font-weight: 600;
     border-style: none;
     cursor: pointer;
@@ -90,6 +100,7 @@
     align-items: center;
     align-self: center;
     position: relative;
+    font-weight: bolrder;
 }
 
 .formulario button img {
@@ -103,6 +114,7 @@
     margin-left: 5%;
     margin-top: 10px;
     font-size: var(--size-parrafo);
+    color: var(--gris1);
 }
 
 .formulario__mensaje {
@@ -115,13 +127,20 @@
 }
 
 .container {
-    margin-left: 40px;
-    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-bottom: 80px;
+}
+
+.container_ {
+    width: 50%;
+    margin: auto;
+    align-self: center;
 }
 
 :root {
+    --gris1: rgb(100, 98, 98);
     --gris3: #313131;
-    --size-h1: 5rem;
-    --size-h3: 4rem;
-    --size-parrafo: 3rem;
+    --size-h1: 3rem;
+    --size-h3: 2rem;
+    --size-parrafo: 1.5rem;
 }

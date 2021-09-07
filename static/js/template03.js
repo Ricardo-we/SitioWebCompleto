@@ -32,18 +32,39 @@ const titles = [
     "Logout"
 ];
 
+const links = [
+    "../../templates/template04.html",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+    "#",
+]
+
 let add_elements = ``;
 
 function add_all_container(){
-    for (let i = 0; i < images.length; i++){
-        add_elements +=`
-        <div class="min_container_2">
-            <img src="${images[i]}" alt="">
-            <h2>${titles[i]}</h2>
-        </div>`
+    try {
+        for (let i = 0; i < images.length; i++){
+            add_elements +=`
+            <a class="min_container_2" href="${links[i]}">
+                <img src="${images[i]}" alt="">
+                <h2>${titles[i]}</h2>
+            </a>`
+        }
     }
 
-    container.innerHTML = add_elements
+    catch{
+        container.innerHTML = `<p> Algo salio mal </p>`
+    }
+
+    container.innerHTML = add_elements 
 }
 
 add_all_container()
