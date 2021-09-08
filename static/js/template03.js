@@ -1,5 +1,5 @@
 const container = document.getElementById("main_cont");
-const base_dir = "../static/img/"
+const base_dir = "../static/img/template03/"
 
 const images = [
     base_dir+"ic_quiz.png",

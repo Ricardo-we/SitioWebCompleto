@@ -4,59 +4,66 @@
 }
 
 html{
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 
 .background_login {
     width: 100%;
-    background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
+    /* background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%); */
     padding-top: 6.7rem;
     height: 100%;
 }
 
 .vector_img {
-    width: 45rem;
-    height: 22.5rem;
+    width: 25rem;
+    height: 12rem;
     position: absolute;
-    top: 14rem;
-    left: 13rem;
+    top: 6rem;
+    left: 32rem;
 }
 
 .label_design{
     font-size: var(--size-parrafo);
-    margin-left: 3rem;
+    margin-left: 2rem;
+    color: var(--gris2);
 }
 
 .form_design {
     background-color: white;
     width: 100%;
     height: 100%;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin: 0 auto;
     margin-top: 150px;
-    padding-bottom: 70%;
+    padding-bottom: 100%;
     display: flex;
+    padding-top: 30px;
     flex-direction: column;
 }
 
 .form_design h2 {
     font-size: var(--size-h1);
     margin-bottom: 0px;
-    margin-left: 3rem;
+    margin-left: 2rem;
+    color: #3A3A3A;
+
 }
 
 .form_design span {
     font-size: var(--size-h3);
     margin-top: 0px;
     margin-bottom: 20px;
-    margin-left: 3rem;
+    margin-left: 2rem;
+    color:#777777;
 }
 
 .input_design {
     border: none;
-    border-bottom: 1px solid var(--gris3) ;
+    border-bottom: 1px solid var(--gris2) ;
     font-size: var(--size-parrafo);
     width: 90%;
+    color: var(--gris3);
     align-self: center;
 }
 
@@ -76,7 +83,12 @@ html{
     justify-content:center;
     align-items: center;
     align-self: center;
+    text-align: center;
+}
+
+.btn_design img{
     position: relative;
+    left: 10rem;
 }
 
 .message{
@@ -84,11 +96,19 @@ html{
     font-size: var(--size-parrafo);
     color: var(--gris3);
     align-self: flex-end;
+    margin-right: 2rem;
+}
+
+.container_{
+    width: 50%;
+    background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
+    margin: auto 0;
 }
 
 :root {
     --gris3: #313131;
-    --size-h1: 7rem;
-    --size-h3: 4rem;
+    --gris2: #A5A5A5;
+    --size-h1: 4rem;
+    --size-h3: 2rem;
     --size-parrafo: 0.5rem;
 }
