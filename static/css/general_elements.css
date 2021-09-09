@@ -1,0 +1,85 @@
+html {
+    font-size: 1vw;
+}
+
+/***************** DEFAULT USES ******/
+.large {
+    width: 90%;
+    padding: 10px;
+}
+
+.medium {
+    width: 70%;
+    padding: 10px;
+}
+
+.small {
+    width: 50%;
+    padding: 10px;
+}
+
+.xsmall {
+    width: 20%;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    width:80%;
+}
+
+.center-content{
+    align-items: center;
+    justify-content: center;
+}
+
+.evenly-content {
+    justify-content: space-evenly;
+}
+
+.between-content{
+    justify-content: space-between;
+}
+
+.circle {
+    border-radius: 100%;
+}
+
+.rounded {
+    border-radius: 20px;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+/**********FONT SIZES***************/
+.title {
+    font-size: var(--title);
+}
+
+.subtitle {
+    font-size: var(--subtitle);
+}
+
+.text {
+    font-size: var(--text);
+}
+
+
+/************VAR***************/
+:root {
+    --bg-color:linear-gradient(313.78deg, #2855AE -3.15%, #7292CF 100%);
+    --blue-text: #6688CA;
+    --gray-text: #A5A5A5;
+    --black-text:#323643;
+    --title: 5rem;
+    --subtitle: 2.5rem;
+    --text: 1.5rem;
+    --content: 0.8rem;
+}
