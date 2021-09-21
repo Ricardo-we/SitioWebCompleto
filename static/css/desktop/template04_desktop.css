@@ -1,0 +1,32 @@
+@media screen and (min-width: 1200px){
+    .main_container{
+        width: 120rem;
+    }
+    
+    .con span{
+        font-size: 4rem;
+    }
+    
+    .con img{
+        width: 2rem;
+        height: 2.2rem;
+    }
+    
+    .magic_btn {
+        font-size: 2rem;
+        width: 10.5rem;
+        height: 3.5rem;
+    }
+    
+    .magic_btn img {
+        width: 1.8rem;
+        height: 1.4rem;
+    }
+    .small_container{
+        width: 35rem;
+    }
+
+    .big_container{
+        width: 115rem;
+    }
+}

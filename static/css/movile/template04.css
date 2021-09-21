@@ -47,11 +47,11 @@ nav span{
 }
 
 .con {
-    width: 40%;
+    width: 50%;
 }
 
 .con span{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .con img{
@@ -78,8 +78,6 @@ nav span{
     margin: 0;
     padding-right: 1rem;
 }
-
-
 
 .main_frame {
     width: 100%;
@@ -133,12 +131,12 @@ nav span{
     flex-shrink: 3;
     margin: 2rem auto;
     align-self: center;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .small_container {
-    width: 25rem;
+    width: 45%;
     margin: 2rem 10px;
 }
 
@@ -167,9 +165,8 @@ nav span{
     margin-right: 1.5rem;
 }
 
-
 .big_container {
-    width: 53rem;
+    width: 40rem;
     align-self: center;
     margin: 10px auto;
 }
@@ -185,7 +182,7 @@ nav span{
     border-bottom: 2px solid #E1E3E8;
     font-size: var(--subtitle-small);
     margin-top: 1rem;
-    width: 94%;
+    width: 96%;
     color: black;
     font-weight: bold;
 }
@@ -205,9 +202,9 @@ nav span{
     --gray-text: #A5A5A5;
     --gray-text2:#777777;
     --black-text:#323643;
-    --title: 5rem;
-    --subtitle: 4rem;
-    --subtitle-small:2rem;
+    --title: 4rem;
+    --subtitle: 3.5rem;
+    --subtitle-small:2.5rem;
     --text: 1.5rem;
     --content: 1rem;
 }

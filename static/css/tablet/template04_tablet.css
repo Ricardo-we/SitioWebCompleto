@@ -1,0 +1,9 @@
+@media screen and (min-width: 900px){
+    .main_container{
+        width: 90rem;
+    }
+
+    .big_container{
+        width:80rem;
+    }
+}
