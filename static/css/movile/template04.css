@@ -5,30 +5,35 @@
 
 *{
     font-family: 'Source Sans Pro', sans-serif;
+    flex-shrink: 3;
 }
 
 html {
-    font-size: 1vw;
+    font-size: 10px;
 }
 
 body{
     background: var(--bg-color);
-    margin:0;
+    display: flex;
+    margin: 0;
 }
 
-.phone_size {
-    max-width: 70%;
-    width: 55%;
+.main_container {
+    width: 60rem;
     height: auto;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 /*CUSTOM*/
 nav{
     width:100%;
-    margin: 0;
+    margin: 8rem auto;
     padding: 0;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav img{
@@ -45,6 +50,14 @@ nav span{
     width: 40%;
 }
 
+.con span{
+    font-size: 3rem;
+}
+
+.con img{
+    width: 1.7rem;
+    height: 1.9rem;
+}
 
 .magic_btn {
     background-color: white;
@@ -52,11 +65,11 @@ nav span{
     width: 10rem;
     font-size: var(--text);
     border: none;
-    margin-top: 13.5px;
     font-weight: bolder;
     text-align: center;
     height: 2.5rem;
     cursor: pointer;
+    align-self: flex-end;
 }
 
 .magic_btn img {
@@ -72,16 +85,15 @@ nav span{
     width: 100%;
     height: 100%;
     background-color: white;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
     display: inline-block;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    border-radius: 5rem;
 }
 
 .profile_info_cont {
-    border-radius: 20px;
+    border-radius: 4rem;
     border: 1px solid #2855AE;
     margin-top:20px;
     margin-bottom: 3rem;
@@ -118,6 +130,7 @@ nav span{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex-shrink: 3;
     margin: 2rem auto;
     align-self: center;
     justify-content: center;
@@ -125,13 +138,13 @@ nav span{
 }
 
 .small_container {
-    width: 43%;
+    width: 25rem;
     margin: 2rem 10px;
 }
 
 .small_container span {
     display: block;
-    font-size: 1.7rem;
+    font-size: var(--subtitle-small);
     color:  var(--gray-text);
 
 }
@@ -139,7 +152,7 @@ nav span{
 .small_container input {
     border: none;
     border-bottom: 2px solid #E1E3E8;
-    font-size: var(--text);
+    font-size: var(--subtitle-small);
     margin-top: 1rem;
     width: 90%;
     color: black;
@@ -148,30 +161,29 @@ nav span{
 
 .small_container img {
     position: absolute;
-    width: 1.5rem;
-    height: 1.8rem;
+    width: 2rem;
+    height: 2.2rem;
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
 }
 
 
 .big_container {
-    width: 90%;
+    width: 53rem;
     align-self: center;
     margin: 10px auto;
 }
 
 .big_container span {
     display: block;
-    font-size: 1.7rem;
+    font-size: var(--subtitle-small);
     color:  var(--gray-text);
-
 }
 
 .big_container input {
     border: none;
     border-bottom: 2px solid #E1E3E8;
-    font-size: var(--text);
+    font-size: var(--subtitle-small);
     margin-top: 1rem;
     width: 94%;
     color: black;
@@ -181,8 +193,8 @@ nav span{
 
 .big_container img {
     position: absolute;
-    width: 1.5rem;
-    height: 1.8rem;
+    width: 2rem;
+    height: 2.2rem;
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
 }
@@ -194,8 +206,8 @@ nav span{
     --gray-text2:#777777;
     --black-text:#323643;
     --title: 5rem;
-    --subtitle: 2.5rem;
-    --subtitle-small:2em;
+    --subtitle: 4rem;
+    --subtitle-small:2rem;
     --text: 1.5rem;
     --content: 1rem;
 }

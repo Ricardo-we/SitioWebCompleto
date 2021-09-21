@@ -1,25 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 *{
+    margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+body{
+    background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%); 
+    display: flex;
+}
+
 html{
-    font-size: 1.2vw;
+    font-size: 10px;
 }
 
 .background_login {
-    width: 100%;
-    background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%); 
+    width: 50rem;
+    margin: 0 auto;
     padding-top: 6.7rem;
-    height: 100%;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
 
 .vector_img {
-    width: 25rem;
-    height: 12rem;
-    position: absolute;
-    top: 6rem;
-    left: 32rem;
+    width: 35rem;
+    align-self: flex-end; 
+    margin-right: 5rem;
+    margin-top: 10rem;
+    z-index: 1;
 }
 
 .label_design{
@@ -30,16 +38,17 @@ html{
 
 .form_design {
     background-color: white;
-    width: 98%;
-    height: 100%;
-    border-top-right-radius: 3rem;
-    border-top-left-radius: 3rem;
+    width: 86%;
+    border-top-right-radius: 5rem;
+    border-top-left-radius: 5rem;
     margin: 0 auto;
-    margin-top: 150px;
-    padding-bottom: 20px;
     display: flex;
-    padding-top: 30px;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     flex-direction: column;
+    margin-top: -3rem;
+    height: 100%;
 }
 
 .form_design h2 {
@@ -52,7 +61,7 @@ html{
 .form_design span {
     font-size: var(--size-h3);
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 8rem;
     margin-left: 2rem;
     color:#777777;
 }
@@ -68,11 +77,11 @@ html{
 
 .btn_design {
     margin: 10px 0px;
-    height: 6rem;
+    height: 6.4rem;
     background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
     border-radius: 1rem;
-    color: #fff;
-    font-size: var(--size-parrafo);
+    color: white;
+    font-size: var(--size-h3);
     font-weight: 600;
     border-style: none;
     cursor: pointer;
@@ -82,7 +91,8 @@ html{
     justify-content:center;
     align-items: center;
     align-self: center;
-    text-align: center;
+    position: relative;
+    font-weight: bolder;
 }
 
 .btn_design img{
@@ -101,13 +111,13 @@ html{
 .container_{
     width: 50%;
     background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
-    margin: auto 0;
+    margin: 0 auto;
 }
 
 :root {
-    --gris3: #313131;
+    --gris3: #0f0f0f;
     --gris2: #A5A5A5;
-    --size-h1: 4rem;
-    --size-h3: 2rem;
-    --size-parrafo: 0.5rem;
+    --size-h1: 4.5rem;
+    --size-h3: 3rem;
+    --size-parrafo: 2.5rem;
 }

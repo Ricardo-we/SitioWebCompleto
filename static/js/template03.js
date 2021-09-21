@@ -53,7 +53,7 @@ function add_all_container(){
     try {
         for (let i = 0; i < images.length; i++){
             add_elements +=`
-            <a class="min_container_2" href="${links[i]}">
+            <a class="small_elements" href="${links[i]}">
                 <img src="${images[i]}" alt="">
                 <h2>${titles[i]}</h2>
             </a>`

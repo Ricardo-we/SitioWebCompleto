@@ -1,0 +1,14 @@
+@media screen and (min-width:800px){
+    .background_login{
+        width: 90rem;
+    }
+
+    .vector_img{
+        width: 45rem;
+        height: 30rem;
+    }
+
+    .form_design{
+        border-radius: 5rem;
+    }
+}

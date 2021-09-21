@@ -1,0 +1,36 @@
+@media screen and (min-width:1200px){
+    .main_frame{
+        width: 150rem;
+        align-items: center;
+    }
+
+    .big_element_container{
+        width: 90%;
+    }
+
+    .big_elements{
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .big_elements img{
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .small_elements{
+        width: 35rem;
+        font-size: 8rem;
+        padding-left: 3rem;
+    }
+
+    .small_elements img{
+        width: 8rem;
+        height: 8.4rem;
+    }
+    
+    .small_elements h2{
+        font-size: 4rem;
+    }
+
+}
