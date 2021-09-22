@@ -9,7 +9,7 @@
     
     .con img{
         width: 2rem;
-        height: 2.2rem;
+        height: 3rem;
     }
     
     .magic_btn {
@@ -22,11 +22,9 @@
         width: 1.8rem;
         height: 1.4rem;
     }
-    .small_container{
-        width: 35rem;
-    }
 
-    .big_container{
-        width: 115rem;
+    .small_container{
+        width: 29rem;
+        margin: 2rem 2.5rem;
     }
 }

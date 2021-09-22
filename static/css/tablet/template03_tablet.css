@@ -1,6 +1,6 @@
 @media screen and (min-width: 900px){
     .main_frame{
-        width: 80rem;
+        width: 90rem;
         align-items: center;
     }
 
@@ -25,8 +25,8 @@
     }
 
     .small_elements img{
-        width: 7rem;
-        height: 7.4rem;
+        width: 6rem;
+        height: 6.4rem;
     }
     
     .small_elements h2{

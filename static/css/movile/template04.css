@@ -136,7 +136,7 @@ nav span{
 }
 
 .small_container {
-    width: 45%;
+    width: 43%;
     margin: 2rem 10px;
 }
 
@@ -166,7 +166,7 @@ nav span{
 }
 
 .big_container {
-    width: 40rem;
+    width: 90%;
     align-self: center;
     margin: 10px auto;
 }

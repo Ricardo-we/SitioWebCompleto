@@ -5,26 +5,33 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-evenly;
-        height: 130vh;
+        height: 100%;
     }
 
     .banner_login_container{
-        width:45%;
+        width: 60rem;
         justify-content: center;
         align-items: center;
+        margin-left: 5rem;
     }
 
     .banner_login_container img{
-        width: 60rem;
+        width: 40rem;
     }
 
     .form_container{
-        width:45%;
+        width: 50rem;
+        margin-left: 5rem;
     }
 
     .formulario{
-        width: 60rem;
-        height: 60rem;
+        width: 55rem;
+        height: 55rem;
+    }
+    
+    .formulario button{
+        height: 8rem;
+        border-radius: 2rem;
     }
 
     .formulario input{
