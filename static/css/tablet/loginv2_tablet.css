@@ -1,14 +1,48 @@
-@media screen and (min-width:800px){
+@media screen and (min-width:900px){
     .background_login{
         width: 90rem;
+        height: 90rem;
+    
     }
 
     .vector_img{
-        width: 45rem;
+        width: 60rem;
         height: 30rem;
     }
 
     .form_design{
         border-radius: 5rem;
     }
+
+    .form_design h2{
+        margin-left: 5rem;
+    }
+
+    .form_design span{
+        margin-left: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .label_design{
+        margin-left: 5rem;
+        margin-top: 3rem;
+    }
+
+    .btn_design{
+        margin-top: 3rem;
+        height: 7rem;
+    }
+
+    .message{
+        width: 20rem;
+    }
+
+    :root {
+        --gris3: #0f0f0f;
+        --gris2: #A5A5A5;
+        --size-h1: 5.5rem;
+        --size-h3: 4rem;
+        --size-parrafo: 2.5rem;
+    }
+    
 }

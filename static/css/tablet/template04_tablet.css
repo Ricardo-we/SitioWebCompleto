@@ -1,6 +1,5 @@
-@media screen and (min-width: 900px){
-    .main_container{
-        width: 90rem;
+@media screen and (min-width: 600px){
+    html{
+        font-size: 15px;
     }
-
 }

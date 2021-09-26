@@ -4,6 +4,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 html{
@@ -22,7 +23,7 @@ html{
 
 /***************    BANNER SETTINGS ********************/
 .banner_login_container{
-    width: 50rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +32,7 @@ html{
 }
 
 .banner_login_container img{
-    width: 35rem;
+    width: 25rem;
     align-self: flex-end;
 }
 
@@ -66,17 +67,17 @@ html{
     color: var(--gris3);
     margin-top: 2rem;
     background-color: #fff;
-    border-radius: 5rem;
+    border-radius: 3rem 3rem 0 0;
     display: flex;
     flex-direction: column;
-    padding-top: 8rem;
+    padding-top: 3rem;
 }
 
 .formulario input {
     width: 90%;
     height: 4rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border: none;
     border-bottom: 1px solid var(--gris3);
     outline: none;
@@ -86,9 +87,9 @@ html{
 
 .formulario button {
     margin: 10px 0px;
-    height: 12rem;
+    height: 6rem;
     background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
-    border-radius: 3rem;
+    border-radius: 1rem;
     color: white;
     font-size: var(--size-h3);
     font-weight: 600;
@@ -113,7 +114,7 @@ html{
 .formulario label {
     align-self: flex-start;
     margin-left: 5%;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: var(--size-parrafo);
     color: var(--gris1);
 }
@@ -121,7 +122,7 @@ html{
 .formulario__mensaje {
     color: var(--gris1);
     font-size: var(--size-parrafo);
-    width: 40%;
+    width: 50%;
     margin-top: 2rem;
     /* margin-right: 10px; */
     text-decoration: none;
@@ -135,9 +136,28 @@ html{
 :root {
     --gris1: rgb(100, 98, 98);
     --gris3: #313131;
-    --size-h1: 5.5rem;
-    --size-h3: 4rem;
-    --size-parrafo: 2.5rem;
+    --size-h1: 3rem;
+    --size-h3: 2rem;
+    --size-parrafo: 1.5rem;
 }
 
 /*******************/
+@media screen and (min-width:600px){
+    
+    .banner_login_container img{
+        width: 35rem;
+        align-self: flex-end;
+    }
+
+    .formulario__mensaje{
+        width: 15rem;
+    }
+
+    :root {
+        --gris1: rgb(100, 98, 98);
+        --gris3: #313131;
+        --size-h1: 4rem;
+        --size-h3: 3rem;
+        --size-parrafo: 2rem;
+    }
+}

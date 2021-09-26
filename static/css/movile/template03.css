@@ -14,7 +14,6 @@ body{
     background-color: var(--light-blue);
     display: flex;
     flex-wrap: nowrap;
-    font-size: 3rem;
     margin: 0px;
 }
 
@@ -24,7 +23,7 @@ header{
 }
 
 .main_frame {
-    width: 65rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -37,24 +36,28 @@ header{
     flex-wrap: nowrap;
     width: 100%;
     height: 10rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: auto 0px;
     margin-bottom: 20rem;
 }
 
 .title_container {
-    margin-left: 3rem;
+    margin-left: 2rem;
 }
 
 .title{
-    font-size: 5.5rem;
+    font-size: var(--h2-size);
     margin-bottom: 0;
 }
 
+.title_container span{
+    font-size: var(--h3-size);
+}
+
 .circle_container {
-    width: 12rem;
-    height: 12rem;
-    align-self: center;
+    width: 5rem;
+    height: 5rem;
+    align-self: flex-end;
     border: white 3px solid;
     border-radius: 50rem;
     display:flex;
@@ -72,12 +75,12 @@ header{
 }
 
 .date_container {
-    width: 20rem;
-    height: 4rem;
+    width: 10rem;
+    height: 3rem;
     background-color: white;
     color: var(--light-blue);
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: var(--text);
     display: inline-block;
     border-radius: 20px;
     text-align: center;
@@ -95,28 +98,30 @@ header{
 .big_elements {
     background-color: white;
     width: 20rem;
-    height: 27rem;
+    height: 20rem;
     margin: 5px;
     border: 1px solid var(--light-blue);
     border-radius: 25px;
     z-index:1;
     display: flex;
     flex-direction: column;
-    padding-left: 2rem;
-    padding-top: 2rem;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-left: 1rem;
 }
 
 .big_elements img {
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
-    margin-bottom: 3rem;
-    width: 12rem;
-    height: 12rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    width: 7rem;
+    height: 7rem;
+    align-self: flex-start;
 }
 
 .big_elements h2 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 7rem;
+    font-size: var(--h2-size);
     line-height: 43px;
     letter-spacing: 0px;
     text-align: left;
@@ -124,6 +129,7 @@ header{
 
 .big_elements span {
     color: #777777;
+    font-size: var(--text)
 }
 
 #main_cont {
@@ -139,8 +145,8 @@ header{
 
 .small_elements {
     background-color: #F5F6FC;
-    width: 20rem;
-    height: 20rem;
+    width: 42%;
+    height: 13rem;
     margin: 1rem;
     border-radius: 15px;
     text-decoration: none; 
@@ -150,14 +156,14 @@ header{
 }
 
 .small_elements h2 {
-    font-size: 3rem;
-    margin-top: 2rem;
+    font-size: var(--text);
+    margin-top: 0.5rem;
     margin-left: 2rem;
 }
 
 .small_elements img {
-    width: 5rem;
-    height: 5.3rem;
+    width: 4rem;
+    height: 4rem;
     margin-top: 2rem;
     margin-left: 2rem;
 }
@@ -166,4 +172,7 @@ header{
 :root {
     --light-blue: #6184C7;
     --gray: #CACACA;
+    --h2-size: 3rem;
+    --h3-size: 2rem;
+    --text: 1.8rem;
 }

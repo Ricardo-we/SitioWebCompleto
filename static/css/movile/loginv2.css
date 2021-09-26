@@ -5,8 +5,9 @@
 }
 
 body{
+    width: 100%;
     background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%); 
-    display: flex;
+    overflow-x: hidden;
 }
 
 html{
@@ -14,18 +15,20 @@ html{
 }
 
 .background_login {
-    width: 50rem;
+    width: 100%;
     margin: 0 auto;
     padding-top: 6.7rem;
     display:flex;
     flex-wrap: nowrap;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .vector_img {
-    width: 35rem;
+    width: 26rem;
     align-self: flex-end; 
-    margin-right: 5rem;
     margin-top: 10rem;
     z-index: 1;
 }
@@ -38,17 +41,16 @@ html{
 
 .form_design {
     background-color: white;
-    width: 86%;
-    border-top-right-radius: 5rem;
-    border-top-left-radius: 5rem;
+    width: 100%;
+    border-top-right-radius: 3rem;
+    border-top-left-radius: 3rem;
     margin: 0 auto;
+    align-self: center;
     display: flex;
-    padding-top: 3rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
     flex-direction: column;
     margin-top: -3rem;
     height: 100%;
+    padding-top: 2rem;
 }
 
 .form_design h2 {
@@ -61,7 +63,7 @@ html{
 .form_design span {
     font-size: var(--size-h3);
     margin-top: 0px;
-    margin-bottom: 8rem;
+    margin-bottom: 3rem;
     margin-left: 2rem;
     color:#777777;
 }
@@ -77,27 +79,25 @@ html{
 
 .btn_design {
     margin: 10px 0px;
-    height: 6.4rem;
+    height: 4.4rem;
     background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
     border-radius: 1rem;
     color: white;
     font-size: var(--size-h3);
-    font-weight: 600;
     border-style: none;
     cursor: pointer;
     width: 90%;
     display: flex;
-    flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
+    flex-direction: row;
     align-self: center;
-    position: relative;
     font-weight: bolder;
 }
 
 .btn_design img{
-    position: relative;
-    left: 10rem;
+    position: absolute;
+    right: 5rem;
 }
 
 .message{
@@ -117,7 +117,49 @@ html{
 :root {
     --gris3: #0f0f0f;
     --gris2: #A5A5A5;
-    --size-h1: 4.5rem;
-    --size-h3: 3rem;
-    --size-parrafo: 2.5rem;
+    --size-h1: 3.5rem;
+    --size-h3: 2rem;
+    --size-parrafo: 1.5rem;
+}
+
+@media screen and (min-width:640px){
+
+    .vector_img{
+        width: 35rem;
+    }
+
+    .btn_design{
+        height: 2rem;
+    }
+
+    .form_design h2{
+        margin-left: 2rem;
+    }
+
+    .form_design span{
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .label_design{
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .btn_design{
+        margin-top: 3rem;
+        height: 7rem;
+    }
+
+    .message{
+        width: 20rem;
+    }
+
+    :root {
+        --gris3: #0f0f0f;
+        --gris2: #A5A5A5;
+        --size-h1: 4.5rem;
+        --size-h3: 3rem;
+        --size-parrafo: 2.5rem;
+    }
 }

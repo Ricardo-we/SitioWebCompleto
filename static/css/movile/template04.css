@@ -28,8 +28,9 @@ body{
 
 /*CUSTOM*/
 nav{
-    width:100%;
-    margin: 8rem auto;
+    width: 90%;
+    margin: 7rem auto;
+    margin-bottom: 3rem;
     padding: 0;
     display: flex;
     justify-content: space-between;
@@ -51,7 +52,7 @@ nav span{
 }
 
 .con span{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .con img{
@@ -87,38 +88,44 @@ nav span{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border-radius: 5rem;
+    border-radius: 3rem;
 }
 
 .profile_info_cont {
-    border-radius: 4rem;
+    width: 95%;
+    border-radius: 2rem;
     border: 1px solid #2855AE;
     margin-top:20px;
     margin-bottom: 3rem;
     margin: 3rem auto;
     align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 .img_container {
     background-color: #CACACA;
-    width: 12rem;
-    height: 12rem;
+    width: 6rem;
+    height: 6rem;
     display: inline-block;
-    border-radius: 1.7rem;
-    margin-top: 1rem;
+    border-radius: 0.7rem;
+    margin-left: 2rem;
 }
-
+.subtitle{
+    font-size:var(--text);
+}
 .subtitle_{
-    font-size: var(--subtitle-small);
+    font-size: var(--text);
     color: var(--gray-text2);
     font-weight: 400;
 }
 
 .icon_size {
-    margin-top: 2rem;
     margin-right:1rem;
-    width: 3.5rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 
@@ -137,20 +144,19 @@ nav span{
 
 .small_container {
     width: 43%;
-    margin: 2rem 10px;
+    margin: 2rem 0;
 }
 
 .small_container span {
     display: block;
-    font-size: var(--subtitle-small);
+    font-size: var(--text);
     color:  var(--gray-text);
-
 }
 
 .small_container input {
     border: none;
     border-bottom: 2px solid #E1E3E8;
-    font-size: var(--subtitle-small);
+    font-size: var(--text);
     margin-top: 1rem;
     width: 90%;
     color: black;
@@ -159,10 +165,8 @@ nav span{
 
 .small_container img {
     position: absolute;
-    width: 2rem;
-    height: 2.2rem;
-    margin-bottom: 1.5rem;
-    margin-right: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .big_container {
@@ -173,14 +177,14 @@ nav span{
 
 .big_container span {
     display: block;
-    font-size: var(--subtitle-small);
+    font-size: var(--text);
     color:  var(--gray-text);
 }
 
 .big_container input {
     border: none;
     border-bottom: 2px solid #E1E3E8;
-    font-size: var(--subtitle-small);
+    font-size: var(--text);
     margin-top: 1rem;
     width: 96%;
     color: black;
@@ -190,8 +194,8 @@ nav span{
 
 .big_container img {
     position: absolute;
-    width: 2rem;
-    height: 2.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
 }
@@ -202,8 +206,8 @@ nav span{
     --gray-text: #A5A5A5;
     --gray-text2:#777777;
     --black-text:#323643;
-    --title: 4rem;
-    --subtitle: 3.5rem;
+    --title: 3rem;
+    --subtitle: 2.5rem;
     --subtitle-small:2.5rem;
     --text: 1.5rem;
     --content: 1rem;

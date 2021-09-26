@@ -1,36 +1,44 @@
-@media screen and (min-width:1200px){
-    .main_frame{
-        width: 120rem;
-        align-items: center;
+@media screen and (min-width:1000px){
+
+    .date_container{
+        font-size: 2.2rem !important;
     }
 
-    .big_element_container{
-        width: 90%;
+    .title_container{
+        width: 100%;
+    }
+
+    .circle_container{
+        width: 15rem;
+        height: 15rem;
     }
 
     .big_elements{
         width: 30rem;
         height: 30rem;
+        padding-left: 6rem;
     }
 
     .big_elements img{
-        width: 15rem;
-        height: 15rem;
+        width: 10rem;
+        height: 10rem;
     }
 
     .small_elements{
-        width: 35rem;
-        font-size: 8rem;
-        padding-left: 3rem;
+        width: 30rem;
+        height: 16rem;
     }
 
     .small_elements img{
         width: 6rem;
-        height: 6.4rem;
-    }
-    
-    .small_elements h2{
-        font-size: 4rem;
+        height: 6rem;
     }
 
+    :root {
+        --light-blue: #6184C7;
+        --gray: #CACACA;
+        --h2-size: 5.5rem;
+        --h3-size: 4.5rem;
+        --text: 3rem;
+    }
 }
