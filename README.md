@@ -10,7 +10,7 @@ Curso: Laboratorio 1
 <br>
 4to Bachillerato en computación
 
-<span class="separator"></span>
+# Índice
 1 -> https://ricardo-we.github.io/SitioWebCompleto/templates/loading_page.html
 <br>
 2 -> https://ricardo-we.github.io/SitioWebCompleto/
@@ -20,3 +20,8 @@ Curso: Laboratorio 1
 4 -> https://ricardo-we.github.io/SitioWebCompleto/templates/template03.html
 <br>
 5 -> https://ricardo-we.github.io/SitioWebCompleto/templates/template04.html
+
+# Objetivos
+-> Mejorar mis habilidades de diseño
+-> Aprendeer pygame y sockets
+-> Mejorar mis notas en todas las clases 
