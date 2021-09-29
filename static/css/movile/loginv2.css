@@ -27,17 +27,14 @@ html{
 }
 
 .vector_img {
-    width: 26rem;
+    width: 30rem;
+    height: 15rem;
     align-self: flex-end; 
     margin-top: 10rem;
+    margin-right: 2rem;
     z-index: 1;
 }
 
-.label_design{
-    font-size: var(--size-parrafo);
-    margin-left: 2rem;
-    color: var(--gris2);
-}
 
 .form_design {
     background-color: white;
@@ -57,7 +54,10 @@ html{
     font-size: var(--size-h1);
     margin-bottom: 0px;
     margin-left: 2rem;
-    color: #3A3A3A;
+    color: var(--gris1);
+    line-height: 48px;
+    font-weight: bolder;
+    width: var(--title_width);
 }
 
 .form_design span {
@@ -66,13 +66,28 @@ html{
     margin-bottom: 3rem;
     margin-left: 2rem;
     color:#777777;
+    width: var(--title_width);
+}
+
+.contenedor_inputs{
+    margin:0 auto;
+    margin-top: 2rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.label_design{
+    font-size: 1.2rem;  
+    align-self: flex-start;
+    color: var(--gris2);
 }
 
 .input_design {
     border: none;
     border-bottom: 1px solid var(--gris2) ;
     font-size: var(--size-parrafo);
-    width: 90%;
+    width: 100%;
     color: var(--gris3);
     align-self: center;
 }
@@ -116,50 +131,56 @@ html{
 
 :root {
     --gris3: #0f0f0f;
+    --gris1: #3A3A3A;
     --gris2: #A5A5A5;
     --size-h1: 3.5rem;
-    --size-h3: 2rem;
+    --size-h3: 1.9rem;
     --size-parrafo: 1.5rem;
+    --title_width: 16rem;
 }
 
 @media screen and (min-width:640px){
 
     .vector_img{
-        width: 35rem;
+        width: 40rem;
+        height: 20rem;
+        margin-right: 6rem;
     }
 
-    .btn_design{
-        height: 2rem;
+    .form_design{
+        border-radius: 4rem;
+        padding-top: 5rem;
     }
 
     .form_design h2{
-        margin-left: 2rem;
+        margin-left: 4rem;
     }
 
     .form_design span{
-        margin-left: 2rem;
+        margin-left: 4rem;
         margin-bottom: 2rem;
     }
 
     .label_design{
-        margin-left: 2rem;
-        margin-top: 2rem;
+        font-size: 2rem;
     }
 
     .btn_design{
         margin-top: 3rem;
         height: 7rem;
     }
-
     .message{
         width: 20rem;
+        margin: 5rem 0;
     }
 
     :root {
         --gris3: #0f0f0f;
+        --gris1: #3A3A3A;
         --gris2: #A5A5A5;
         --size-h1: 4.5rem;
-        --size-h3: 3rem;
+        --size-h3: 2.9rem;
         --size-parrafo: 2.5rem;
+        --title_width: 30rem;
     }
 }
