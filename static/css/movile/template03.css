@@ -37,13 +37,11 @@ header{
     width: 100%;
     height: 10rem;
     justify-content: space-evenly;
+    align-items: center;
     margin: auto 0px;
     margin-bottom: 20rem;
 }
 
-.title_container {
-    margin-left: 2rem;
-}
 
 .title{
     font-size: var(--h2-size);
@@ -91,13 +89,13 @@ header{
     height: auto;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;  
 }
 
 .big_elements {
     background-color: white;
-    width: 20rem;
+    width: 15rem;
     height: 20rem;
     margin: 5px;
     border: 1px solid var(--light-blue);
@@ -107,15 +105,14 @@ header{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
-    padding-left: 1rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .big_elements img {
     margin-top: 1rem;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-    width: 7rem;
-    height: 7rem;
+    width: 8rem;
+    height: 8rem;
     align-self: flex-start;
 }
 
@@ -139,13 +136,14 @@ header{
     padding-top: 15rem;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .small_elements {
     background-color: #F5F6FC;
-    width: 42%;
+    width: 15rem;
     height: 13rem;
     margin: 1rem;
     border-radius: 15px;
@@ -156,7 +154,7 @@ header{
 }
 
 .small_elements h2 {
-    font-size: var(--text);
+    font-size: var(--small_elementsfs);
     margin-top: 0.5rem;
     margin-left: 2rem;
 }
@@ -175,4 +173,5 @@ header{
     --h2-size: 3rem;
     --h3-size: 2rem;
     --text: 1.8rem;
+    --small_elementsfs: 1.6rem;
 }

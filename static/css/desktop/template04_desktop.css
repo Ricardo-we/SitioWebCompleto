@@ -1,10 +1,30 @@
 @media screen and (min-width: 1000px){
     html{
-        font-size: 18px;
+        font-size: 10px;
     }
 
-    .img_container{
-        width: 6rem;
-        height: 6rem;
+    .main_container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;   
+    }
+
+    .main_frame{ 
+        width: 100rem;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .desk_mode_1{
+        display: none;
+    }
+    .desk_mode_2{
+        display: flex;
+        background-color: white;
     }
 }

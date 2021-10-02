@@ -33,17 +33,17 @@
     }
 
     .message{
-        width: 20rem;
+        width: 25rem;
     }
 
     :root {
         --gris3: #0f0f0f;
         --gris1: #3A3A3A;
         --gris2: #A5A5A5;
-        --size-h1: 4.5rem;
-        --size-h3: 2.9rem;
-        --size-parrafo: 2.5rem;
-        --title_width: 30rem;
+        --size-h1: 6rem;
+        --size-h3: 3.2rem;
+        --size-parrafo: 3rem;
+        --title_width: 34rem;
     }
     
 }
